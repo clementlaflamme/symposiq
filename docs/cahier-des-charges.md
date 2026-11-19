@@ -6,7 +6,7 @@
 |---|---|
 | Cours | 420-951-MA Applications Web transactionnelles — groupe 25604 |
 | Document | Laboratoire 1 — exemple de référence |
-| Version | 1.0 — fin de la semaine 2 |
+| Version | 1.1 — fin de la semaine 2 |
 | Option | B — nouveau projet |
 | Équipe | 3 membres (A, B, C) |
 | Modèle de paiement | Hybride : paiement unique (billets) **et** abonnement mensuel (plan Pro) |
@@ -21,6 +21,7 @@
 | 0.1 | Semaine 1 | Fiche projet : vision, SWOT, personas, 7 P. |
 | 0.2 | Semaine 2, partie 1 | Modèle de paiement : gratuit / payant, grille tarifaire, cas de paiement, événements Stripe. |
 | 1.0 | Semaine 2, partie 2 | Périmètre, cas d'utilisation, user stories et critères, règles métier, exigences non fonctionnelles, diagrammes, maquettes, planification. |
+| 1.1 | Semaine 3 | Revue des stories en mode plan avec Claude Code : US-21 ajoutée; Critères d'acceptation ajoutés pour US-11, US-12 et US-21. |
 
 ---
 
@@ -354,6 +355,7 @@ Tailles : **S** (petite, moins d'une journée), **M** (moyenne, deux ou trois jo
 | US-18 | organisateur | annuler un événement et rembourser tous les billets, afin de gérer un imprévu. | Could | L |
 | US-19 | organisateur | payer un abonnement annuel, afin d'économiser. | Won't | — |
 | US-20 | participant | utiliser une application mobile native. | Won't | — |
+| US-21 | organisateur | Être averti par courriel 3 jours avant la fin de mon essai gratuit afin de décider si je garde le plan pro avant d'être prélevé. | Should | S |
 
 Les **Must** (US-01 à US-10) représentent environ 60 % de l'effort estimé ; ils couvrent les deux modèles de paiement.
 
